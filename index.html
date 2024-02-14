@@ -7,11 +7,43 @@
     <title>Testing Local Storage </title>
 </head>
 <body>
+    <!-- let make a container that will hold everything -->
     <div class="motherDiv">
+        <!-- then we would make a div that will contain the necessary element for our project  -->
         <div class="functionHolder">
-            <div class="selectionDiv"></div>
-            <div class="resetDiv"></div>
-            <div class="textDiv"></div>
+            <!-- and in this fuction holder we mainly have 3 separate divs that will handle various section -->
+            <div class="selectionDiv">
+                <!-- we are creating a separate container for font size -->
+                <div class="fontSize">
+                    <label for="fontSelect"> Size :</label>Your 
+                <select name="FontSize" id="FontSize">
+                    <option id="8">8px</option>
+                    <option id="16">16px</option>
+                    <option id="24">24px</option>
+                    <option id="32">32px</option>
+                    <option id="40">40px</option>
+                </select>
+                </div>
+                <!-- we are creating a separate container for background color -->
+                <div class="bgColor">
+                    <label for="selectBgColor"> Background Color :</label>
+                <select name="BgColor" id="BgColor">
+                    <option id="8">8px</option>
+                    <option id="16">16px</option>
+                    <option id="24">24px</option>
+                    <option id="32">32px</option>
+                    <option id="40">40px</option>
+                </select>
+                </div>
+                
+            </div>
+            <div class="resetDiv">
+                <button class="reset-Btn">Reset Preference</button>
+            </div>
+            
+            <div class="textDiv">
+                <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quos vero illum totam aspernatur modi iure aliquam, sapiente numquam. Beatae modi in molestias odio illo praesentium accusamus, deleniti expedita voluptatibus.</span><span>Quidem nesciunt sunt esse ipsum fuga dolorem quod praesentium culpa nobis reiciendis itaque pariatur nulla inventore optio expedita repellendus, repellat recusandae asperiores? Nam provident ex officiis sint quis qui illum.</span></p>
+            </div>
         </div>
     </div>
     <script src="test.js"></script>
