@@ -75,3 +75,13 @@ width: 50rem;
     font-weight: bold;
 
 }
+
+.footer{
+    display: flex;
+   align-items:flex-end;
+   justify-content: end;
+    text-align: right;
+    font-weight: bolder;
+    margin-right: 10px;
+    font-style: italic;
+}
