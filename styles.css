@@ -13,7 +13,7 @@
 .functionHolder{
 height: 30rem;
 width: 30rem;
-background-color: aquamarine;
+/* background-color: aquamarine; */
 }
 
 /* styling selection div mainly for flex */
@@ -36,4 +36,6 @@ background-color: aquamarine;
 .textDiv{
    margin-top: 4rem;
    font-weight: bold;
+   background-color: pink;
+   font-size: 8px;
 }
