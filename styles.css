@@ -7,13 +7,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }  
 /* setting up styles for the functionHolder div */
 
 .functionHolder{
-height: 30rem;
-width: 30rem;
-/* background-color: aquamarine; */
+height: 100%;
+width: 50rem;
+/* border: 2px solid salmon; */
 }
 
 /* styling selection div mainly for flex */
@@ -23,6 +24,12 @@ width: 30rem;
     justify-content: space-around;
     margin-top: 70px;
     font-size: large;
+    background-color: rgb(113, 185, 107);
+    height: 10%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: -20px;
+    
     
 }
 /* editing reset button */
@@ -30,12 +37,41 @@ width: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
-}
+    margin-top: 20px;
+    background-color: #4C3326;
+    height: 10%;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;}
 
 .textDiv{
-   margin-top: 4rem;
+   /* margin-top: 4rem; */
    font-weight: bold;
-   background-color: #9FA982;
+   background-color:pink;
+ border-radius: 10px;
    font-size: 8px;
+   width: 100%;
+   display: flex;
+   
+   text-align: center;
+}
+
+/* setting styles for reset button */
+.reset-Btn{
+    height: 40px;
+    background-color: #e6ccb2;
+}
+
+.selectBg{
+    background-color: #fefae0;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.selectFont{
+    background-color: #fefae0;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
 }
